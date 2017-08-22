@@ -17,7 +17,7 @@ We can use npm to install the ```create-react-native-app``` commnad line utility
 ```
 $ npm install -g create-react-native-app
 ```
-Note: If you have permission errros to install utility check here.
+Note: If you have permission errros to install utility check [here](https://gist.github.com/Dauzy/ccc46f72028e121bb67462173971cfeb).
 
 React Native requires a recent version of JDK and Android Studio Environment
 
@@ -43,13 +43,3 @@ react-native run-android
 ```
 
 ![react-native App](https://raw.githubusercontent.com/Dauzy/How-to-install-React-Native/master/image.png)
-
-# Fixing npm permissions
-#### 1. First find the path to npm's directory
-```
-$ npm config get prefix
-```
-#### 2. Change the owner of npm's directories to the name of the current user (your username!):
-```
-$ sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
-```
