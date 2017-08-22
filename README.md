@@ -42,7 +42,7 @@ npm start
 react-native run-android
 ```
 
-![react-native App](https://github.com/Dauzy/How-to-install-React-Native/image.png)
+![react-native App](https://raw.githubusercontent.com/Dauzy/How-to-install-React-Native/master/image.png)
 
 # Fixing npm permissions
 #### 1. First find the path to npm's directory
